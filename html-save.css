@@ -1,0 +1,34 @@
+/* Author: Luigi Vinent */
+.label {
+	-fx-text-fill: rgb(166, 226, 46);
+	-fx-font-weight: bold;
+}
+.button {
+    -fx-text-fill: rgb(166, 226, 46);
+    -fx-background-color: rgb(39, 40, 34);
+    -fx-border-radius: 20;
+    -fx-background-radius: 20;
+    -fx-padding: 5;
+}
+.button:hover {
+	-fx-text-fill: rgb(249, 38, 114);
+}
+.root{
+    -fx-font-family: "Courier New";
+    -fx-background: rgb(61, 61, 59);
+    -fx-base: rgb(39, 40, 34);
+}
+.text-field:focused {
+    -fx-background-color: #a9a9a9 , white , white;
+    -fx-background-insets: 0 -1 -1 -1, 0 0 0 0, 0 -1 3 -1;
+}
+.progress-bar > .bar {
+    -fx-background-color: linear-gradient(
+        from 0px .75em to .75em 0px,
+        repeat,
+        rgb(253, 151, 31) 0%,
+        rgb(253, 151, 31) 49%,
+        derive(rgb(253, 151, 31), 30%) 50%,
+        derive(rgb(253, 151, 31), 30%) 99%
+    );
+}
